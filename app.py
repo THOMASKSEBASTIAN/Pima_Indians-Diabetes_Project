@@ -8,9 +8,9 @@ app = Flask(__name__)
 
 
 #model = pickle.load(open("model.pkl","rb"))
-model = joblib.load("D:\Artificial_Intelligence\Diabetic_Project_1\model.pk1")
+model = joblib.load("D:\Artificial_Intelligence\Diabetic_Project_1\model.pkl")
 #scale = pickle.load(open("scale.pkl","rb"))
-scale = joblib.load("D:\Artificial_Intelligence\Diabetic_Project_1\scale.pk1")
+scale = joblib.load("D:\Artificial_Intelligence\Diabetic_Project_1\scale.pkl")
 
 
 @app.route("/")
