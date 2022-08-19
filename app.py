@@ -6,8 +6,6 @@ import joblib
 
 app = Flask(__name__)
 
-
-#model = pickle.load(open("model.pkl","rb"))
 model = joblib.load("D:\Artificial_Intelligence\Diabetic_Project_1\model.pkl")
 #scale = pickle.load(open("scale.pkl","rb"))
 scale = joblib.load("D:\Artificial_Intelligence\Diabetic_Project_1\scale.pkl")
